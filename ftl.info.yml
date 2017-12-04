@@ -1,0 +1,27 @@
+name: Faster Than Light
+type: theme
+base theme: classy
+description: Faster Than Light Theme
+screenshot: images/screenshot.png
+core: 8.x
+libraries:
+  - compro_theme/global-styling
+libraries-override:
+  classy/base: false
+regions:
+  page_top: Page top
+  pre_header: Pre-header
+  header: Header
+  nav: Nav
+  hero: Hero
+  pre_content: Pre-content
+  sidebar: Sidebar
+  content: Content
+  post_content: Post-content
+  pre_footer: Pre-footer
+  footer: Footer
+  post_footer: Post-footer
+  page_bottom: Page bottom
+features:
+  - logo
+  - favicon

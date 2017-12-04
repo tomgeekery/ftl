@@ -1,0 +1,104 @@
+<?php
+
+/**
+ * @file
+ * Functions to support theming in the compro_theme theme.
+ */
+
+use Drupal\Component\Utility\SafeMarkup;
+use Drupal\node\Entity\Node;
+
+/**
+ * Implements hook_preprocess_HOOK() for HTML document templates.
+ */
+function compro_theme_preprocess_html(&$variables) {}
+
+/**
+* Implements hook_page_attachments_alter
+*/
+function compro_theme_page_attachments_alter(array &$page) {}
+
+/**
+* Implements hook_preprocess_page() for PAGE document templates.
+*/
+function compro_theme_preprocess_page(&$variables) {}
+
+/**
+* Implements hook_theme_suggestions_page_alter().
+*/
+function compro_theme_theme_suggestions_page_alter(array &$suggestions, array $variables) {}
+
+/**
+* Implements hook_theme_suggestions_node_alter().
+*/
+function compro_theme_theme_suggestions_node_alter(array &$suggestions, array $variables) {}
+
+/**
+* Implements hook_preprocess_HOOK() for Block document templates.
+*/
+function compro_theme_preprocess_block(&$variables) {}
+
+/**
+* Implements hook_theme_suggestions_field_alter().
+*/
+function compro_theme_theme_suggestions_field_alter(array &$suggestions, array $variables) {}
+
+/**
+* Implements hook_theme_suggestions_field_alter().
+*/
+function compro_theme_theme_suggestions_fieldset_alter(array &$suggestions, array $variables) {}
+
+/**
+* Implements hook_preprocess_node().
+*/
+function compro_theme_preprocess_node(&$variables) {}
+
+/**
+* Implements hook_theme_suggestions_views_view_alter().
+*/
+function compro_theme_theme_suggestions_views_view_alter(array &$suggestions, array $variables) {}
+
+/**
+* Implements hook_preprocess_form().
+*/
+function compro_theme_preprocess_form(&$variables) {}
+
+/**
+* Implements hook_preprocess_select().
+*/
+function compro_theme_preprocess_select(&$variables) {}
+
+/**
+* Implements hook_preprocess_field().
+*/
+function compro_theme_preprocess_field(&$variables, $hook) {}
+
+/**
+* Implements hook_preprocess_details().
+*/
+function compro_theme_preprocess_details(&$variables) {}
+
+/**
+* Implements hook_theme_suggestions_details_alter().
+*/
+function compro_theme_theme_suggestions_details_alter(array &$suggestions, array $variables) {}
+
+/**
+* Implements hook_preprocess_menu_local_task().
+*/
+function compro_theme_preprocess_menu_local_task(&$variables) {}
+
+/**
+ * Implements hook_preprocess_form_element().
+ */
+function compro_theme_preprocess_form_element(&$variables) {}
+
+/**
+ * Implements hook_preprocess_region().
+ */
+function compro_theme_preprocess_region(&$variables) {}
+
+/**
+ * Implements hook_preprocess_breadcrumb().
+ */
+function compro_theme_preprocess_breadcrumb(&$variables) {}

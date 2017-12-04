@@ -1,0 +1,36 @@
+
+/* Pipe */
+.pipe::after {
+  content: "|";
+  display: inline-block;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+/* Expand */
+.expand {
+  background-color: #898989;
+  height: 16px;
+  position: relative;
+  transition: transform 0.25s;
+  width: 2px;
+}
+
+.expand::after {
+  background-color: #898989;
+  content: "";
+  height: 2px;
+  left: -7px;
+  position: absolute;
+  top: 7px;
+  transition: transform 0.25s;
+  width: 16px;
+}
+
+.expand.open {
+  transform: rotate(90deg);
+}
+
+.expand.open::after {
+  transform: rotate(-90deg);
+}
