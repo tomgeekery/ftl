@@ -5,7 +5,7 @@ description: Faster Than Light Theme
 screenshot: images/screenshot.png
 core: 8.x
 libraries:
-  - compro_theme/global-styling
+  - ftl/global-styling
 libraries-override:
   classy/base: false
 regions:

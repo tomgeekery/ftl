@@ -48,7 +48,7 @@ gulp.task('js', ()=> {
 gulp.task('default', ['css', 'js'], ()=> {
   browserSync.init({
     proxy: {
-      target: 'http://localhost:8080'
+      target: 'http://localhost:8000'
     },
     browser: []
   });
