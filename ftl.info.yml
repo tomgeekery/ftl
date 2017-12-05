@@ -13,7 +13,6 @@ regions:
   pre_header: Pre-header
   header: Header
   nav: Nav
-  hero: Hero
   pre_content: Pre-content
   sidebar: Sidebar
   content: Content

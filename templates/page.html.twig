@@ -54,13 +54,9 @@
 
   {{ page.header }}
 
-  {{ page.primary_menu }}
-  
-  {{ page.secondary_menu }}
+  {{ page.nav }}
 
   {{ page.breadcrumb }}
-
-  {{ page.highlighted }}
 
   {{ page.help }}
 
@@ -68,7 +64,6 @@
     <a id="main-content" tabindex="-1"></a>{# link is in html.html.twig #}
 
     <div class="layout-content">
-      {{ page.hero }}
       {{ page.pre_content }}
       <div class="sidebar-and-content">
         {{ page.sidebar }}
