@@ -2,9 +2,8 @@ global-styling:
   version: 1.x
   css:
     theme:
-      css/dist/style.min.css: {}
+      css/dist/tachyons.css: {}
   js:
     js/dist/app.js: {}
   dependencies:
     - core/drupal
-    - core/jquery

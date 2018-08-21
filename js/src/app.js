@@ -1,16 +1,15 @@
 
 /* JavaScript for FTL theme */
+Drupal.behaviors.ftlTheme = {
+  attach: function (context, settings) {
+    // Give external links target="_blank"
+    const links = document.querySelectorAll("a");
 
-(function ($) {
-  Drupal.behaviors.ftlTheme = {
-    attach: function (context, settings) {
-      // Give external links target="_blank"
-      $a.each(function(i) {
-        if (this.href.length && this.hostname !== window.location.hostname) {
-          $(this).attr('target','_blank');
-        }
-      });
-    }
-  };
+    links.forEach((link) => {
+      if (link.href.length && link.hostname !== window.location.hostname) {
+        link.target = "_blank";
+      }
+    });
+  }
+};
 
-})(jQuery);
